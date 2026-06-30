@@ -7,7 +7,7 @@ cask "mkdn" do
   desc "Mac-native Markdown viewer with Mermaid diagram support"
   homepage "https://github.com/jud/mkdn"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "mkdn.app"
   binary "#{appdir}/mkdn.app/Contents/MacOS/mkdn"
