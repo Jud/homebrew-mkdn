@@ -1,6 +1,6 @@
 cask "mkdn" do
-  version "0.7.2"
-  sha256 "087f1da436a640cfa9ba7b5f183d664f41198ff53e9ea45be74a3b381024c56b"
+  version "0.8.0"
+  sha256 "ccd48786bc39ee0db6a3af6c5e4edc387e3616075f62b6291e7d0283c4f1766a"
 
   url "https://github.com/jud/mkdn/releases/download/v#{version}/mkdn-#{version}.zip"
   name "mkdn"
